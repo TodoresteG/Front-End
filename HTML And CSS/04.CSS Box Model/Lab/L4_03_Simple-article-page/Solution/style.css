@@ -1,0 +1,43 @@
+@import url('typography.css');
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.article {
+    margin: 2rem 10rem;
+    max-width: 1200px;
+}
+
+.article .article-header {
+    margin: 1rem;
+}
+
+.article .article-header h1, p {
+    margin: 1rem;
+}
+
+.article-main {
+    margin: 1rem;
+}
+
+.main-header {
+    margin: 1rem;
+}
+
+.article-main > p, img {
+    margin: 1rem;
+}
+
+.article-main > ul{
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.image {
+    width: 50%;
+}
+
+.article-footer {
+    margin: 1rem;
+}

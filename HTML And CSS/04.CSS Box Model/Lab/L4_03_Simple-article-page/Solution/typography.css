@@ -1,0 +1,20 @@
+/* Reset css */
+* {
+    padding: 0;
+    margin: 0
+}
+
+/* Box-Sizing */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    font: 16px/1.5 'system-ui'; 
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+}
