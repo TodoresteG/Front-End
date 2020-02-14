@@ -1,0 +1,26 @@
+
+table {
+    margin: 5em;
+    font-size: 16px;
+    padding: 3em;
+    width: 1000px;
+    height: 400px;
+}
+
+table, td, th {
+    width: 1000px;
+    border-width: 1px;
+    border-color: rgb(221, 221, 221);
+    border-style: solid;
+    padding: 1em;
+    margin: auto;
+}
+
+tr:nth-child(odd) > td{
+    background-color: rgb(241, 241, 241);
+}
+
+tr:hover {
+    background-color: rgb(0, 0, 0);
+    color:  rgb(255, 255, 255);
+}

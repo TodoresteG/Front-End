@@ -1,0 +1,43 @@
+@import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css);
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+table {
+    margin: 5em;
+    font-size: 16px;
+    padding: 3em;
+    max-width: 1500px;
+    height: 400px;
+}
+
+table, td, th {
+    width: 1500px;
+    border-width: 1px;
+    border-color: rgb(221, 221, 221);
+    border-style: solid;
+    padding: 1em;
+    margin: auto;
+}
+
+tr:nth-child(odd) > td{
+    background-color: rgb(241, 241, 241);
+}
+
+blockquote {
+    border-left: 5px solid #ccc;
+    border-left-color: rgb(221, 221, 221);
+    font-style: italic;
+    padding: 1em;
+}
+
+.koko {
+    text-align: right;
+}
