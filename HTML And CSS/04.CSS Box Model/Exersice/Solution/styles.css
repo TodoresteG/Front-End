@@ -1,0 +1,205 @@
+@import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css);
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    font: 16px/1.5 'PT Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'PT Serif', serif;
+    padding-bottom: 1rem;
+}
+
+h1 {font-size: 2.8rem;}
+
+h2{font-size: 2.5rem;}
+
+h3{font-size: 2.2rem;}
+
+h4{font-size: 1.9rem;}
+
+h5{font-size: 1.6rem;}
+
+h6{font-size: 1.3rem;}
+
+p {
+    padding-bottom: 1rem;
+}
+
+body {
+    max-width: 1400px;
+    padding: 1rem;
+}
+
+.site-logo {
+    font: 16px 'Rock Salt', cursive;
+    display: inline-block;
+    color: #FF7F50;
+    width: 800px;
+    padding-bottom: 1rem;
+    font-size: 23px;
+}
+
+.site-header {
+    background-color: #F1F5F8;
+}
+
+.site-header nav {
+    width: 500px;
+    display: inline-block;
+}
+
+.site-header nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0.3rem;
+}
+
+.site-header nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF7F50;
+    border-radius: 5px;
+    padding: 0.2rem;
+}
+
+.site-header ul li a:before {
+    font-family: "Font Awesome 5 Free"; 
+    content: "\f015";
+    display: inline-block;
+    font-weight: 900;
+    padding: 0.2rem;
+}
+
+.site-header ul li:nth-child(2) > a::before {
+    content: '\f2bb';
+}
+
+.site-header ul li:nth-child(3) > a::before {
+    content: '\f182';
+}
+
+.site-header ul li:nth-child(4) > a::before {
+    content: '\f249';
+}
+
+.main-header {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0, 0.4)), url('../Requirements-and-Resources/img/header-flowers.jpg');
+    padding: 15rem 0;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    text-align: center;
+}
+
+.main-header h1{
+    width: 600px;
+    margin: 0 auto;
+    color: #fff;
+    text-shadow: 2px 2px #333;
+}
+
+.main-header p {
+    width: 550px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.main-topic {
+    background-color: #FF7F50;
+    padding: 3rem 0;
+}
+.main-topic h3 {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.main-topic p {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 2.5rem;
+    width: 550px;
+    margin: 0 auto;
+}
+
+.main-topic button {
+    margin: 0 39rem;
+    padding: 0.4rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    color: #FF7F50;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.main-topic button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.main-works {
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+.main-works ul li {
+    display: inline-block;
+    width: 400px;
+    vertical-align: middle;
+    padding: 1rem;
+}
+
+.main-works img {
+    width: 39%;
+    height: auto;
+}
+
+.main-works p {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.gallery {
+    background-color: #FFF2ED;
+    padding: 4rem;
+    text-align: center;
+}
+
+.gallery ul li{
+    display: inline-block;
+    border: 5px solid #000;
+    list-style: none;
+    width: 400px;
+    vertical-align: middle;
+    padding: 1rem;
+    background-color: #fff;
+    margin: 0 0.3rem;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.site-footer {
+    background-color: #FF7F50;
+    text-align: center;
+    color: #fff;
+}
