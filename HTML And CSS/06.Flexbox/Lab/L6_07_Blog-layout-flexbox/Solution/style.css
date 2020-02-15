@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'PT Serif', serif;
+    padding-bottom: 1rem;
+}
+
+h1 {font-size: 2.8rem;}
+
+h2{font-size: 2.5rem;}
+
+h3{font-size: 2.2rem;}
+
+h4{font-size: 1.9rem;}
+
+h5{font-size: 1.6rem;}
+
+h6{font-size: 1.3rem;}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    font-family: inherit;
+}
+
+blockquote:before {
+    font-family: inherit;
+}
+
+p {
+    padding: 1rem;
+}
+
+body {
+    max-width: 1600px;
+    padding: 2rem 5rem;
+    background-color: #EEEEEE;
+}
+
+.page {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.site-title {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 3rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 3px solid #000;
+    width: 100%;
+}
+
+article {
+    width: 60%;
+}
+
+.section-one {
+    padding-bottom: 1rem;
+}
+
+.section-one img {
+    border: 3px solid #000;
+    padding: 0.5rem;
+    float: right;
+    margin: 0 0.2rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.section-one img:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.section-two blockquote {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    text-align: 1.2;
+    font-style: italic;
+    width: 450px;
+    float: right;
+    padding: 1.5rem;
+    border-left: 2px solid #DDDDDD;
+    height: 200px;
+}
+
+.section-two blockquote .author {
+    text-align: right;
+    padding: 0.8rem 0;
+}
+
+.section-two blockquote:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.test {
+    width: 570px;
+}
+
+.section-three img{
+    border: 3px solid #000;
+    padding: 0.5rem;
+    margin: 1rem;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.section-three img:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+/* Do not forget to clear float */
+
+.section-categories {
+    float: right;
+    width: 30%;
+    padding-top: 1.5rem;
+}
+
+ul li {
+    list-style-type: square;
+}
+
+ul li a {
+    color: yellowgreen;
+    text-decoration: none;
+}
+
+.section-categories:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.section-social {
+    position: absolute;
+    top: 50vh; right: 25vw; bottom: 0; left: 67.3vw;
+}

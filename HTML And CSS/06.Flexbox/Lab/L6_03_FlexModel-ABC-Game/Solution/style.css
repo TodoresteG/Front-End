@@ -1,0 +1,84 @@
+*, *:before, *:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 15vw;
+    height: 35rem;
+}
+
+span {
+    border: 1px solid #000;
+    flex: 0 0 auto;
+    padding: 1rem;
+    margin: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.S {
+    order: 0;
+}
+
+.e {
+    order: 1;
+}
+
+.m {
+    order: 2;
+}
+
+.a {
+    order: 3;
+}
+
+.n {
+    order: 4;
+}
+
+.t {
+    order: 5;
+}
+
+.i {
+    order: 6;
+}
+
+.c {
+    order: 7;
+}
+
+.H {
+    order: 8;
+}
+
+.T {
+    order: 9;
+}
+
+.M {
+    order: 10;
+}
+
+.L {
+    order: 11;
+}
