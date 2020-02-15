@@ -1,0 +1,33 @@
+@import url('https://fontawesome.com/');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1600px;
+    max-height: 1800px;
+}
+
+.v1 {
+    background-image: linear-gradient(to right, #051937, #00446d, #007492, #00a69c, #14d58b);
+    height: 754px;
+}
+
+.card {
+    display: block;
+    position: absolute;
+    top: 33vh; right: 33vw;
+}
+
+.v2 {
+    background-image: linear-gradient(to right, #ab3870, #c23e5f, #d04d4a, #d46333, #cf7c19);
+    height: 900px;
+}
+
+.card2 {
+    display: block;
+    position: absolute;
+    top: 110vh; right: 33vw;
+}
