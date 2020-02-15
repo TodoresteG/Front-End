@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: initial;
+}
+
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 5rem 0;
+}
+
+.container {
+    background-image: linear-gradient(to bottom, #051937, #00263d, #003034, #003722, #2d3b11);
+    padding-top: 56.25%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.colors {
+    width: 200px;
+    height: 5px;
+    float: left;
+    margin: 1rem 0;
+}
+
+.yellow {
+    background-color: #FFFF00;
+}
+
+.yellow-green {
+    background-color: #ADFF2F;
+}
+
+.green {
+    background-color: #008000;
+}
+
+.orange {
+    background-color: #FFA500;
+}
+
+.red {
+    background-color: #FF0000;
+}
+
+.profile-image {
+    clear: both;
+    width: 220px;
+    height: 220px;
+    float: left;
+    margin: 2rem 5rem;
+    transform: rotate(-12deg)
+}
+
+.person-info {
+    text-transform: uppercase;
+    color: #fff;
+    float: right;
+}
