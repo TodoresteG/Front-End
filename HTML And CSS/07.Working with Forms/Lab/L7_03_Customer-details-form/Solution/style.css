@@ -1,0 +1,86 @@
+*, *:before, *:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 14px/1.2 'Montserrat', sans-serif;
+}
+
+body {
+    max-width: 500px;
+    margin: 2rem auto;
+}
+
+fieldset {
+    background-color: rgb(173, 216, 230);
+    border-radius: 0.5rem;
+    border: none;
+    padding: 2rem;
+}
+
+fieldset h1 {
+    text-align: center;
+    padding-bottom: 1em;
+    color: #2C4665;
+}
+
+form .field {
+    padding-bottom: 1rem;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+form .field label {
+    flex: 0 1 30%;
+    padding: 0 1rem;
+    color: rgb(11, 60, 119);
+}
+
+form .field input {
+    flex: 0 1 70%;
+    padding: 0.3em 0.5em;
+}
+
+form .radio-input {
+    padding-bottom: 1rem;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+form .radio-input label {
+    width: 30%;
+    padding: 0 1rem;
+    color: rgb(11, 60, 119);
+}
+
+form .field select {
+    flex: 0 1 70%;
+    padding: 0.3em 0.5em;
+}
+
+form .text-message {
+    width: 80%;
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+form .text-message label {
+    flex: 0 1 30%;
+    padding: 0 1rem;
+    color: rgb(11, 60, 119);
+}
+
+form .text-message textarea {
+    flex: 0 1 70%;
+    padding: 0.3em 0.5em;
+}
+
+form .terms-condition label {
+    padding: 0 1rem;
+    color: rgb(11, 60, 119);
+}
