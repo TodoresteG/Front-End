@@ -1,0 +1,96 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.5 'PT Serif', serif;
+}
+
+body {
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+
+.div {
+    display: flex;
+    height: 35em;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    background-image: url('../Requirements-and-Resources/image/image1.png');
+    flex: 0 1 55%;
+    padding: 1rem;
+}
+
+.site-header h1 {
+    text-align: center;
+    border-bottom: 3px dotted #658520;
+    padding-top: 1rem;
+}
+
+.header-p {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 3rem;
+}
+
+.header-p p {
+    font-style: italic;
+    font-size: 19px;
+}
+
+.ingredients {
+    padding-bottom: 3rem;
+}
+
+.ingredients span {
+    color: #658520;
+    font-weight: bold;
+}
+
+.juice-info {
+    font-weight: 100;
+    padding-bottom: 3rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td {
+    text-align: center;
+    width: 33%;
+}
+
+table, th, td {
+    border: 2px solid #658520;
+    padding: 0.2rem;
+}
+
+.image-container {
+    overflow: hidden;
+    position: relative;
+    flex: 0 0 45%;
+}
+
+.image-container:before {
+    display: block;
+    padding-top: 177.78%;
+    content: '';
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
