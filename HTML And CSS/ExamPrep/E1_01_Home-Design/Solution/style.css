@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+@import 'https://use.fontawesome.com/releases/v5.8.2/css/all.css';
+
+*, *:before, *:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font: 16px/1.5 'Courgette';
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1200px;
+    margin: 2rem auto;
+    background-color: #EEE;
+}
+
+.main-header {
+    width: 90%;
+    text-align: center;
+    font-size: 34px;
+    letter-spacing: 2px;
+}
+
+.bonus-header {
+    width: 57%;
+    text-align: right;
+    font-size: 26px;
+    letter-spacing: 1px;
+    color: #CB2027;
+    margin-bottom: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 30%;
+    overflow: hidden;
+    margin: 0 0.5rem;
+    justify-content: space-between;
+}
+
+.card-header {
+    height: 0;
+    padding-top: calc(100 / 150 * 100%);
+    position: relative;
+}
+
+.card-header img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.card-main {
+    padding: 1rem;
+    flex: 0 0 35%;
+}
+
+.card-main h3 {
+    text-align: center;
+    border-bottom: 1px solid #CB2027;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.card-footer p {
+    text-align: center;
+}
+
+.card-footer p i {
+    color: #CB2027;
+}
