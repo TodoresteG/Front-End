@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:400,700,900&display=swap');
+@import 'https://use.fontawesome.com/releases/v5.8.2/css/all.css';
+
+*, *:before, *:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.5 'Roboto', sans-serif;
+}
+
+body {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.site-header {
+    overflow: hidden;
+    position: relative;
+}
+
+.img-container {
+    width: 100%;
+    height: 750px;
+    background-image: url('../Requirements-and-Resources/image/image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.main-header {
+    display: inline-block;
+    width: 20%;
+    height: 20%;
+    box-shadow: 4px -1px 28px 3px rgba(102,102,102,1);
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    border: 1px solid #999;
+    padding: 0.5em;
+}
+
+.main-header h1 {
+    font-size: 2em;
+    border-bottom: 3px solid #fff;
+    width: 60%;
+    padding-bottom: 0.2em;
+}
+
+.main-header p {
+    padding-top: 0.2em;
+}
+
+.more-info {
+    display: inline-block;
+    width: 28%;
+    height: 40%;
+    box-shadow: 4px -1px 28px 3px rgba(102,102,102,1);
+    background-image: linear-gradient(to right, #9f958d, #aba49a, #b8b3a7, #c3c2b6, #cfd2c5);
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    text-align: right;
+    padding: 1em 0.5em;
+    color: #fff;
+}
+
+.more-info i {
+    color: #666;
+    padding-bottom: 0.2em;
+}
+
+.site-main {
+    background-color: #F2F0F3;
+    padding: 2rem 5rem;
+    flex: 0 0 75%;
+}
+
+.site-main .services {
+    text-transform: uppercase;
+    padding-bottom: 0.5em;
+}
+
+.site-main .bolder {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.site-main p {
+    padding-bottom: 1em;
+}
+
+.site-main .contacts-header {
+    padding-top: 1em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #808080;
+}
+
+.site-main .contacts ul {
+    padding-top: 1em;
+    list-style: none outside;
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: 0.3em;
+    margin-bottom: 0.2em;
+}
+
+.site-main .contacts ul li {
+    flex: 0 0 25%;
+}
+
+.site-main .contacts form {
+    padding-top: 1em;
+    display: flex;
+}
+
+.site-main .contacts form input {
+    width: 30%;
+    padding: 0.8em 1em;
+    border-radius: 5px;
+    border: none;
+    background-color: #BAB1AD;
+}
+
+.site-main .contacts form a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #67784D;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    margin-left: 1em;
+}
+
+.site-main .contacts form input::placeholder {
+    color: #fff;
+}
+
+.site-content {
+    display: flex;
+}
+
+.site-aside {
+    flex: 0 0 25%;
+    background-color: #BAB1AD;
+    padding: 0.8em 0.5em;
+}
+
+.site-aside .aside-info {
+    padding-bottom: 3em;
+}
+
+.site-aside .aside-info .number {
+    color: #fff;
+    font-size: 3em;
+    font-weight: 1;
+    letter-spacing: 1px;
+}
+
+.site-aside .aside-info .upper {
+    text-transform: uppercase;
+}
