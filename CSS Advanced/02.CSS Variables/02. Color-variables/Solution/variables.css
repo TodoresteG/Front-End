@@ -1,0 +1,13 @@
+:root {
+    --font-color-primary: #275468;
+    --font-color-hover: #FFC701;
+    --font-color-button: #ffffff;
+
+    --bcgr-color-hover: #275468;
+
+    --border-color: #FFC701;
+    --button-color: #FFC701;
+
+    --padding-bottom-headers: 0.5em;
+    --padding-bottom-paragraphs: 1.5em;
+}

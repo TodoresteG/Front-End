@@ -1,0 +1,8 @@
+:root {
+    --font-size-for-h1: 30px;
+    --font-size-for-h3: 20px;
+    --font-size-for-p: 16px;
+
+    --padding-bottom-headings: 1em;
+    --padding-bottom-paragraphs: 0.8em;
+}

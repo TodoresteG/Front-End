@@ -1,0 +1,31 @@
+@media(min-width: 500px) {
+    html {
+        font-size: var(--font-size-phone, 14px);
+    }
+}
+
+@media(min-width: 700px) {
+    html {
+        font-size: var(--font-size-tablet, 16px);
+    }
+}
+
+@media(min-width: 1600px) {
+    html {
+        font-size: var(--font-size-desktop, 18px);
+    }
+}
+
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+p {
+    padding: var(--padding-paragraphs);
+}
+
+ul {
+    padding: var(--padding-ul);
+}

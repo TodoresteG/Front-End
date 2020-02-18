@@ -1,0 +1,8 @@
+:root {
+    --font-size-phone: 14px;
+    --font-size-tablet: 16px;
+    --font-size-desktop: 18px;
+
+    --padding-paragraphs: 1em 0;
+    --padding-ul: 0.3em 3em;
+}
