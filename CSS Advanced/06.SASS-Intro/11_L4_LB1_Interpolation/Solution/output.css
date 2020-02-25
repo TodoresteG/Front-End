@@ -1,0 +1,30 @@
+.site {
+  max-width: 500px;
+  margin: 0 auto; }
+  .site .site-header {
+    font-style: italic; }
+  .site .site-main {
+    width: 150px; }
+    .site .site-main .content {
+      font-weight: bold; }
+  .site .site-footer {
+    display: flex;
+    align-items: center; }
+    .site .site-footer .description {
+      font-size: 30px; }
+    .site .site-footer ul {
+      width: 100%;
+      display: flex;
+      justify-content: space-between; }
+    .site .site-footer li {
+      list-style: none outside; }
+    .site .site-footer a {
+      text-decoration: none;
+      color: #000;
+      padding: 0.5em;
+      border-radius: 0.3em; }
+      .site .site-footer a:hover {
+        color: #fff;
+        background-color: #000; }
+
+/*# sourceMappingURL=output.css.map */

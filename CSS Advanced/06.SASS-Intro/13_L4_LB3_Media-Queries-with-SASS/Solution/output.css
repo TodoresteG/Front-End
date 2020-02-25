@@ -1,0 +1,27 @@
+.site {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  @media (min-width: 320px) {
+    .site {
+      font-size: 14px;
+      color: #A00; } }
+  @media (min-width: 600px) {
+    .site {
+      font-size: 18px;
+      color: rgba(74, 182, 24, 0.945); } }
+  @media (min-width: 900px) {
+    .site {
+      font-size: 22px;
+      color: #d4b528; } }
+  @media (min-width: 1200px) {
+    .site {
+      font-size: 26px;
+      color: #2066cf; } }
+  @media (min-width: 1600px) {
+    .site {
+      font-size: 30px;
+      color: #aa24cc; } }
+
+/*# sourceMappingURL=output.css.map */

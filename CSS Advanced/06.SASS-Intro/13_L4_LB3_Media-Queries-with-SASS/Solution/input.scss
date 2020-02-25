@@ -1,0 +1,63 @@
+@mixin bp($device) {
+    @if $device == "phone" {
+        @media (min-width: 320px) {
+            @content;
+        }
+    }
+    
+    @if $device == "mobile" {
+        @media (min-width: 600px) {
+            @content;
+        }
+    }
+
+    @if $device == "tablet" {
+        @media (min-width: 900px) {
+            @content;
+        }
+    }
+
+    @if $device == "laptop" {
+        @media (min-width: 1200px) {
+            @content;
+        }
+    }
+
+    @if $device == "desktop" {
+        @media (min-width: 1600px) {
+            @content;
+        }
+    }
+}
+
+.site {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include bp( phone ) {
+        font-size: 14px;
+        color: #A00;
+    }
+
+    @include bp( mobile ) {
+        font-size: 18px;
+        color: rgba(74, 182, 24, 0.945);
+    }
+
+    @include bp( tablet ) {
+        font-size: 22px;
+        color: rgb(212, 181, 40);
+    }
+
+    @include bp( laptop ) {
+        font-size: 26px;
+        color: rgb(32, 102, 207);
+    }
+
+    @include bp( desktop ) {
+        font-size: 30px;
+        color: rgb(170, 36, 204);
+    }
+}
