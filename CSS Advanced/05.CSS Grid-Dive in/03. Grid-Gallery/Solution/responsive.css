@@ -1,0 +1,36 @@
+
+/* Please tell my why I cant't order them */
+
+@media(max-width: 800px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr;
+        grid-auto-rows: 0.5fr;
+        grid-gap: 5px;
+        grid-template-areas: 
+            "s-1 s-2"
+            "b-1 b-1"
+            "b-2 b-2"
+            "s-3 s-4"
+            "b-3 b-3"
+            "b-4 b-4"
+            "s-5 s-6"
+            "b-5 b-5"
+            "b-6 b-6"
+            "s-7 s-7"
+    }
+
+    .gallery li:nth-child(1) { grid-area: "s-1"; }
+    .gallery li:nth-child(3) { grid-area: "s-2"; }
+    .gallery li:nth-child(2) { grid-area: "b-1"; }
+    .gallery li:nth-child(6) { grid-area: "b-2"; }
+    .gallery li:nth-child(4) { grid-area: "s-3"; }
+    .gallery li:nth-child(5) { grid-area: "s-4"; }
+    .gallery li:nth-child(7) { grid-area: "b-3"; }
+    .gallery li:nth-child(8) { grid-area: "b-4"; }
+    .gallery li:nth-child(9) { grid-area: "s-5"; }
+    .gallery li:nth-child(10) { grid-area: "s-6"; }
+    .gallery li:nth-child(11) { grid-area: "b-5"; }
+    .gallery li:nth-child(12) { grid-area: "b-6"; }
+    .gallery li:nth-child(13) { grid-area: "s-7"; }
+}
